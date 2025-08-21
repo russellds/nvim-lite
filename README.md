@@ -19,5 +19,5 @@ mkdir -p ~/.config/nvim && curl -fsSL https://raw.githubusercontent.com/radleyle
 ```powershell
 $env:NVIM_APPNAME = 'nvim/min'
 if (-not (Test-Path -Path "${env:LOCALAPPDATA}\${env:NVIM_APPNAME}")) { New-Item -Path "${env:LOCALAPPDATA}\${env:NVIM_APPNAME}" -ItemType 'Directory' -Force }
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${env:LOCALAPPDATA}\${env:NVIM_APPNAME}"
+git clone https://github.com/russellds/nvim-lite.git "${env:LOCALAPPDATA}\${env:NVIM_APPNAME}"
 ```
