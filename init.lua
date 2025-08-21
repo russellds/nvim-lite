@@ -89,6 +89,9 @@ vim.opt.splitright = true                          -- Vertical splits go right
 vim.g.mapleader = " "                              -- Set leader key to space
 vim.g.maplocalleader = " "                         -- Set local leader key (NEW)
 
+-- Insert mode mappings
+vim.keymap.set("i", "jk", "<Esc>", { silent = true })
+
 -- Normal mode mappings
 vim.keymap.set("n", "<leader>c", ":nohlsearch<CR>", { desc = "Clear search highlights" })
 
